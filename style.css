@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #0e3a31;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+.intro-header{
+    font-size: 2.5rem;
+}
+.navbar{
+    background-color: #7CD1B8;
+    padding: 1px 5%;
+    width: 100%;
+    position:fixed;
+}
+
+.container{
+    padding: 5% 5% 10%;
+}
+
+.navbar ul{
+    overflow: auto;
+    list-style: none;
+}
+
+.navbar li{
+    margin: 1% 3% 1% 0;
+    float: right;
+    font-size: larger;
+}
+
+.nav-right:hover{
+    text-decoration: underline;
+    color: #1e7e6b;
+}
+
+.navbar .name{
+    font-weight: 900;
+    float: left;
+}
+
+.flexbox{
+    display: flex;
+    padding-top: 7%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.intro-text{
+    padding-top: 50px;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.heading{
+    text-align: center;
+}
+
+.about-me{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.image-container{
+    padding: 50px 5% 0;
+    justify-content: center;
+}
+
+.image{
+    border-radius: 100%;
+}
+
+.btn{
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    background-color: #3E8E7E;
+    padding: 5px 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 2px solid #7CD1B8;
+}
+
+.btn:hover{
+    background-color: #7CD1B8;
+}
+
+.hobbies-icon{
+    width: 20%;
+}
+
+.skill-row{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+    margin: 50px;
+    padding: 0 10%;
+}
+
+
+.css,.python,.html{
+    width: 80%;
+}
+
+.skill-name{
+    display: inline;
+    font-size: 2rem;
+}
+
+.skill-text{
+    font-size: larger;
+}
+
+.star-container{
+    margin-left: 15px;
+    display: inline;
+}
+
+.star-img{
+    width: 20px;
+}
+
+.footer{
+    background-color: #7CD1B8;
+    padding: 1px 5%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.social-icon{
+    width: 3%;
+    margin: 5px 30px;
+}
+
+#home{
+    background-color: #3E8E7E;
+}
+
+#MyHobbies{
+    background-color: #66aa96;
+}
+
+#skills{
+    background-color: #3E8E7E;
+}
